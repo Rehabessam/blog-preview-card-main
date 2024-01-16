@@ -84,12 +84,13 @@ div.image img
     margin-top: 7px;
 }
 
-.text h5
+.text p
 {
     /* padding: 0 10px; */
     margin-bottom: 7px;
     margin-top: 11px;
     margin-left: 5px;
+    font-weight:bold;
    
 }
 .attribution {
@@ -151,12 +152,14 @@ div.image img
     margin-top: 7px;
 }
 
-.text h5
+.text p
 {
     /* padding: 0 10px; */
-    margin-bottom: 7px;
-    margin-top: 11px;
+    margin-bottom: 11px;
+    margin-top: 10px;
     margin-left: 17px;
+    font-weight:bold;
+    font-size: 15px;
    
 }
   }
