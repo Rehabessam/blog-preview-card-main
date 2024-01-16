@@ -1,0 +1,162 @@
+@import url('https://fonts.googleapis.com/css2?family=Figtree:wght@600;800&family=Josefin+Sans:ital,wght@1,300&family=Lemon&display=swap');
+*{
+    box-sizing: border-box;
+    --font-family:'Figtree', sans-serif;
+    --font-family-one: 'Josefin Sans', sans-serif;
+    --font-family-two: 'Lemon', serif;
+}
+body
+{
+    background-color: #f6d050;
+    margin: 0;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    font-family: var(--font-family);
+    
+}
+
+.card
+{   
+    
+    border: 2px solid black;
+    border-radius: 20px;
+    display: block;
+    background-color: white;
+    width: 30vw;
+    line-height: 150%;
+    padding: 0 20px;
+    box-shadow: 7px 7px black;
+}
+div.image img
+{
+    margin-top: 20px;
+    width: 100%;
+    height:40%;
+    border-radius: 11px;
+   
+}
+
+.five{
+    display: inline-block;
+    background-color:#f6d050 ;
+    padding: 4px 10px;
+    border-radius: 4px;
+    margin: 10px 0;
+}
+
+#para1
+{
+    color:rgb(53, 52, 52);
+    margin: 0;
+    font-size:14px;
+}
+#para2
+{
+    color:rgb(144, 140, 140);
+    font-size: 16px;
+}
+.one
+{
+    margin: 17px 0 ;
+}
+.one:hover
+{
+    color: #f6d050;
+    margin: 17px 0 ;
+    cursor: pointer;
+
+}
+.name
+{
+    display: flex;
+    margin-bottom: 7px;
+}
+.pic{
+    width: 3vw;
+}
+.pic img
+{
+    width: 2.5vw;
+    margin-bottom: 7px;
+    margin-top: 7px;
+}
+
+.text h5
+{
+    /* padding: 0 10px; */
+    margin-bottom: 7px;
+    margin-top: 11px;
+    margin-left: 5px;
+   
+}
+.attribution {
+     font-size: 11px; text-align: center;
+    margin-top: 15px; }
+.attribution a { color: hsl(228, 45%, 44%); }
+@media only screen and (max-width: 768px) {
+    /* For mobile phones: */
+
+    .card
+    {   
+        
+        border: 2px solid black;
+        border-radius: 20px;
+        display: block;
+        background-color: white;
+        width: 70vw;
+        line-height: 150%;
+        padding: 0 20px;
+        box-shadow: 7px 7px black;
+    }
+    .five{
+        display: inline-block;
+        background-color:#f6d050 ;
+        padding: 4px 15px;
+        border-radius: 4px;
+        margin: 10px 0;
+    }
+    #para1
+{
+    color:rgb(53, 52, 52);
+    margin:0;
+    font-size:13px;
+}
+.one
+{
+    margin: 9px 0 ;
+    font-size: 17px;
+   
+}
+#para2
+{
+    color:rgb(144, 140, 140);
+    font-size: 11px;
+    line-height: 17px;
+}
+.name
+{
+    display: flex;
+    margin-bottom: 7px;
+}
+.pic{
+    width: 5vw;
+}
+.pic img
+{
+    width: 7vw;
+    margin-bottom: 7px;
+    margin-top: 7px;
+}
+
+.text h5
+{
+    /* padding: 0 10px; */
+    margin-bottom: 7px;
+    margin-top: 11px;
+    margin-left: 17px;
+   
+}
+  }
